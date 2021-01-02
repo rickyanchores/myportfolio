@@ -1,0 +1,23 @@
+.Header{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .nav{
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                padding: 1em;
+            }
+        }
+    }
+    a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    a:hover{
+        color: teal;
+    }
+}

@@ -1,3 +1,37 @@
+.Header {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Header .nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Header .nav ul li {
+  padding: 1em;
+}
+
+.Header a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  color: teal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -12,5 +46,6 @@ body {
 .App {
   background: #333;
   color: whitesmoke;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
