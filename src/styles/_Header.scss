@@ -1,5 +1,12 @@
+
+/* COLORS */
+$mainBg: #0D1117;
+$mainColor: #333;
+$secondColor: teal;
+
+
 .Header{
-    background: black;
+    background: $mainBg;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -18,6 +25,6 @@
         text-decoration: none;
     }
     a:hover{
-        color: teal;
+        color: $secondColor;
     }
 }

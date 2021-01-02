@@ -1,4 +1,13 @@
 @import "./styles/Header";
+@import "./styles/Showcase";
+
+
+
+/* COLORS */
+$mainBg: #0D1117;
+$mainColor: #333;
+$secondColor: teal;
+
 
 *{
     padding: 0;
@@ -7,10 +16,10 @@
 }
 body{
     font-family: monospace;
-    background: #0D1117;
+    background: $mainBg;
 }
 .App{
-    background: #333;
-    color: whitesmoke;
+    
+    color: $txtColor;
     text-align: center;
 }
