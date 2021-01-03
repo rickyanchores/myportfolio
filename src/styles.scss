@@ -1,5 +1,8 @@
 @import "./styles/Header";
 @import "./styles/Showcase";
+@import "./styles/Projects";
+
+
 
 
 
@@ -7,7 +10,7 @@
 $mainBg: #0D1117;
 $mainColor: #333;
 $secondColor: teal;
-
+$txtColor: whitesmoke;
 
 *{
     padding: 0;
