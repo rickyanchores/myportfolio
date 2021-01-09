@@ -51,7 +51,6 @@
 
 /* COLORS */
 .Showcase {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,6 +65,7 @@
       -ms-flex-align: center;
           align-items: center;
   color: whitesmoke;
+  margin-bottom: 8em;
 }
 
 .Showcase img {

@@ -6,13 +6,12 @@ $secondColor: teal;
 
 
 .Showcase{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-
+    margin-bottom: 8em;
     img{
         width: 200px;
         border-radius: 50%;
