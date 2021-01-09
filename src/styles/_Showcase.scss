@@ -13,11 +13,12 @@ $secondColor: teal;
     align-items: center;
     color: whitesmoke;
 
-    background-image: url("https://scontent.fgba1-1.fna.fbcdn.net/v/t1.0-9/70275674_10214941485714921_8756992340024885248_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_ohc=xXBeRyUt6wEAX9H9K-W&_nc_ht=scontent.fgba1-1.fna&oh=7235f4092cf191b80d7ebd5e8ecf6676&oe=6014E3E0");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     
+    img{
+        width: 200px;
+        border-radius: 50%;
+        margin: 1em;
+    }
     
     h1{
         font-size: 5em;
