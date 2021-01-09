@@ -12,6 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2em;
 }
 
 .Header .nav ul {
@@ -70,7 +71,7 @@
 .Showcase img {
   width: 200px;
   border-radius: 50%;
-  margin-bottom: 2em;
+  margin: 2em;
 }
 
 .Showcase h1 {
@@ -141,6 +142,7 @@
   }
 }
 
+/* COLORS */
 .Footer {
   padding: 5em;
 }
@@ -171,6 +173,10 @@
 .Footer .Contacts .nav-media ul li a {
   text-decoration: none;
   color: #ccc;
+}
+
+.Footer .Contacts .nav-media ul li a:hover {
+  color: teal;
 }
 
 /* FONTS*/
