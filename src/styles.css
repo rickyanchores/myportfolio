@@ -89,6 +89,33 @@
   background: #ccc;
 }
 
+.About {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 5px solid #ccc;
+}
+
+.About img {
+  width: 300px;
+}
+
+.About .txt-about {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+@media (max-width: 700px) {
+  .About {
+    display: block;
+  }
+}
+
 /* FONTS*/
 /* COLORS */
 * {
