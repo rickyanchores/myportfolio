@@ -1,0 +1,21 @@
+.Footer{
+    padding: 5em;
+    .Contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .nav-media{
+            ul{
+                display: flex;
+                list-style: none;
+                li{
+                    margin: 1em;
+                    a{
+                        text-decoration: none;
+                        color: #ccc;
+                    }
+                } 
+            }
+        }
+    }
+}

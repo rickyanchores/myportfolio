@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Showcase from "./components/Showcase";
@@ -11,6 +12,7 @@ export default function App() {
       <Showcase />
       <Projects />
       <About />
+      <Footer />
     </div>
   );
 }

@@ -34,6 +34,15 @@
   color: teal;
 }
 
+@media (max-width: 700px) {
+  .Header {
+    display: block;
+  }
+  .Header .nav ul {
+    display: block;
+  }
+}
+
 /* COLORS */
 .Showcase {
   height: 100vh;
@@ -56,7 +65,7 @@
 .Showcase img {
   width: 200px;
   border-radius: 50%;
-  margin: 1em;
+  margin-bottom: 2em;
 }
 
 .Showcase h1 {
@@ -85,7 +94,7 @@
 
 .Cards .card img {
   width: 100%;
-  height: 150px;
+  height: 250px;
   background: #ccc;
 }
 
@@ -102,7 +111,7 @@
 }
 
 .About img {
-  width: 300px;
+  width: 350px;
 }
 
 .About .txt-about {
@@ -110,10 +119,53 @@
   padding: 1em;
 }
 
+.About .txt-about ul {
+  list-style: none;
+}
+
+.About .txt-about ul li {
+  line-height: 1.4;
+}
+
 @media (max-width: 700px) {
   .About {
     display: block;
   }
+  .About img {
+    width: 100%;
+  }
+}
+
+.Footer {
+  padding: 5em;
+}
+
+.Footer .Contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer .Contacts .nav-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.Footer .Contacts .nav-media ul li {
+  margin: 1em;
+}
+
+.Footer .Contacts .nav-media ul li a {
+  text-decoration: none;
+  color: #ccc;
 }
 
 /* FONTS*/
