@@ -38,8 +38,13 @@
   .Header {
     display: block;
   }
-  .Header .nav ul {
-    display: block;
+  .Header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 

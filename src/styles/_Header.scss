@@ -32,8 +32,9 @@ $secondColor: teal;
 @media(max-width:700px){
     .Header{
         display: block;
-        .nav ul{
-            display: block;
+        .nav{
+            display: flex;
+            justify-content: center;
         }
     }
 }
