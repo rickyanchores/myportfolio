@@ -180,6 +180,18 @@
   color: teal;
 }
 
+@media (max-width: 700px) {
+  .Footer {
+    display: block;
+  }
+  .Footer .Contacts {
+    display: block;
+  }
+  .Footer .Contacts .nav-media ul {
+    display: block;
+  }
+}
+
 /* FONTS*/
 /* COLORS */
 * {

@@ -28,3 +28,16 @@ $secondColor: teal;
         }
     }
 }
+
+
+@media(max-width:700px) {
+    .Footer{
+        display: block;
+        .Contacts{
+            display: block;
+            .nav-media ul{
+                display: block;
+            }
+        }
+    }
+ }   
