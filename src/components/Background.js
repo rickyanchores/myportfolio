@@ -1,5 +1,5 @@
-import React, { PureComponent } from 'react'
-import NET from "vanta/dist/vanta.net.min"
+import React, { PureComponent } from 'react';
+import NET from "vanta/dist/vanta.net.min";
 
 
 export default class Background extends PureComponent {
