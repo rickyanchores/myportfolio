@@ -9,7 +9,7 @@ export default class Background extends PureComponent {
 
     componentDidMount() {
 
-      /*
+      
         this.vantaEffect = NET({
           el: this.vantaRef.current,
             mouseControls: false,
@@ -21,8 +21,9 @@ export default class Background extends PureComponent {
             scaleMobile: 1.00,
             color: 0xafacac,
             backgroundColor: 0xe0e14,
-        })*/
+        })
 
+        /*
         this.vantaEffect = WAVES({
           el: this.vantaRef.current,
           mouseControls: true,
@@ -33,7 +34,7 @@ export default class Background extends PureComponent {
           scale: 1.00,
           scaleMobile: 3.00,
           color: 0x131320
-        })
+        })/*
 
 
 
