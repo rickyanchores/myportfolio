@@ -1,0 +1,17 @@
+button{
+    padding: 0.5em 1em;
+    margin: 1em;
+    background: #0D1117;
+    border: 2px solid whitesmoke;
+    a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+}
+button:hover{
+    background: whitesmoke;
+    a{
+        color: #0D1117;
+    }
+}
