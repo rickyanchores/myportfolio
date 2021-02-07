@@ -110,6 +110,16 @@
   background-size: cover;
 }
 
+.Cards .card .imgB {
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/zenkana.jpg");
+  background-size: cover;
+}
+
+.Cards .card .imgC {
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/rickolor.jpg");
+  background-size: cover;
+}
+
 .About {
   display: -webkit-box;
   display: -ms-flexbox;
