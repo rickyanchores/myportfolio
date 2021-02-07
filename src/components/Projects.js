@@ -8,7 +8,7 @@ export default function Projects(){
                 <div className="card">
                     <img className="imgA" src="" alt=""/>
                     <h3>Kahoii</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ipsa commodi deleniti hic laboriosam praesentium?</p>
+                    <p>Website made with HTML, CSS and JS AoS animation</p>
                     <button><a href="https://rickyanchores.github.io/Kahoii/" target="_blank">LIVE</a></button>
                     <button><a href="https://github.com/rickyanchores/Kahoii" target="_blank">CODE</a></button>
                 </div>
