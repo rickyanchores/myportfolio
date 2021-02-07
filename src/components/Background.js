@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
+/*
 import WAVES from "vanta/dist/vanta.waves.min";
+*/
 import NET from "vanta/dist/vanta.net.min";
 
 
@@ -24,6 +26,8 @@ export default class Background extends PureComponent {
         })
 
         /*
+
+
         this.vantaEffect = WAVES({
           el: this.vantaRef.current,
           mouseControls: true,
@@ -34,7 +38,8 @@ export default class Background extends PureComponent {
           scale: 1.00,
           scaleMobile: 3.00,
           color: 0x131320
-        })/*
+        })
+        */
 
 
 
