@@ -4,7 +4,7 @@ export default function About(){
     return(
         <div className="About">
             <div className="img-about">
-                <img src="https://scontent.fbhx3-1.fna.fbcdn.net/v/t1.0-9/70275674_10214941485714921_8756992340024885248_n.jpg?_nc_cat=110&ccb=2&_nc_sid=174925&_nc_ohc=fwT81gfZG7wAX9eyFjA&_nc_ht=scontent.fbhx3-1.fna&oh=33ace2a32ad5985d5c3a759d920de418&oe=6020C160" alt=""/>
+                <img src="https://scontent.fltn2-1.fna.fbcdn.net/v/t1.0-9/45093174_10212921473015866_8798329360139419648_n.jpg?_nc_cat=111&ccb=3&_nc_sid=a4a2d7&_nc_ohc=nfdEoCgxfVAAX_qVQ4r&_nc_ht=scontent.fltn2-1.fna&oh=a41435a89b529c34dc21c201608bf623&oe=604A535D" alt=""/>
             </div>
             <div className="txt-about">
                 <h3>About</h3>
