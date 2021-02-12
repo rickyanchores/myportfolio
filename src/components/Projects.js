@@ -26,6 +26,14 @@ export default function Projects(){
                     <button><a href="https://rickyanchores.github.io/rickolor/">LIVE</a></button>
                     <button><a href="https://github.com/rickyanchores/rickolor" target="_blank">CODE</a></button>
                 </div>
+
+                <div className="card">
+                    <img className="imgD" src="" alt=""/>
+                    <h3>Todo (r) App</h3>
+                    <p>my personal Basic JS Todo App</p>
+                    <button><a href="https://rickyanchores.github.io/todoApp/">LIVE</a></button>
+                    <button><a href="https://github.com/rickyanchores/todoApp" target="_blank">CODE</a></button>
+                </div>
             </div>
         </div>
     )

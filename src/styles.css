@@ -120,6 +120,13 @@
   background-size: cover;
 }
 
+.Cards .card .imgD {
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/todoApp.jpg");
+  background-size: cover;
+  background-position: top;
+  background-size: 750px;
+}
+
 .About {
   display: -webkit-box;
   display: -ms-flexbox;

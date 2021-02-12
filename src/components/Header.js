@@ -6,6 +6,7 @@ export default function Header(){
         <div className="logo">
             <a href=""><h1>Ricky A Dev</h1></a>
         </div>
+        
         <div className="nav">
             <ul>
                 <li><a href="">Home</a></li>
