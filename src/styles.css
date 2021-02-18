@@ -127,6 +127,11 @@
   background-size: 750px;
 }
 
+.Cards .card .imgE {
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/Citypx.jpg");
+  background-size: cover;
+}
+
 .About {
   display: -webkit-box;
   display: -ms-flexbox;

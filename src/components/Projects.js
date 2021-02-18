@@ -34,6 +34,14 @@ export default function Projects(){
                     <button><a href="https://rickyanchores.github.io/todoApp/">LIVE</a></button>
                     <button><a href="https://github.com/rickyanchores/todoApp" target="_blank">CODE</a></button>
                 </div>
+
+                <div className="card">
+                    <img className="imgE" src="" alt=""/>
+                    <h3>CiTYPiX</h3>
+                    <p>A Website with Modern and minimalist Colors</p>
+                    <button><a href="https://rickyanchores.github.io/CiTYPiX/">LIVE</a></button>
+                    <button><a href="https://github.com/rickyanchores/CiTYPiX" target="_blank">CODE</a></button>
+                </div>
             </div>
         </div>
     )

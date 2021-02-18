@@ -9,7 +9,11 @@ export default function About(){
             <div className="txt-about">
                 <h3>About</h3>
                 <p>I'm Ricky, a Front End Developer based in London,UK <br/>
-                Web Dev and Design </p>
+                Web Dev and Design.
+
+                Well organised person, problem solver, independent employee with high attention to detail.
+                Music and Art passionate.               
+                </p>
                 <br/>
                 <h3>Skills:</h3>
                 <ul>
