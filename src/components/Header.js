@@ -1,8 +1,10 @@
 import React from "react";
+import { withRouter, Link } from 'react-router-dom'
+import { HashLink } from "react-router-hash-link";
 
 
-
-export default function Header(){
+function Header(props){
+    console.log(props)
     return(
     <div className="Header">
         <div className="logo">
@@ -11,13 +13,22 @@ export default function Header(){
         
         <div className="nav">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contacts</a></li>
+                <li>
+                    <HashLink smooth to="/#Showcase">Home</HashLink>
+                </li>
+                <li>
+                    <HashLink smooth to="/#Projects">Projects</HashLink>
+                </li>
+                <li>
+                    <HashLink smooth to="/#About">About</HashLink>
+                </li>
+                <li>
+                    <HashLink smooth to="/#Contacts">Contacts</HashLink>
+                </li>
             </ul>
         </div>
 
     </div>
     )};
 
+    export default withRouter(Header)

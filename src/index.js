@@ -4,9 +4,28 @@ import App from './App';
 import "./styles.css";
 import reportWebVitals from './reportWebVitals';
 import Projects from './components/Projects';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import Background from "./components/Background";
+import AnimatedCursor from "react-animated-cursor";
+import Header from "./components/Header";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+    <AnimatedCursor
+          innerSize={12}
+          outerSize={32}
+          color='0, 128, 128'
+          outerAlpha={0.2}
+          innerScale={0.7}
+          outerScale={5}
+        />
+        <Header />
+        <Background />
+      <Switch>
+        <Route path ='/' exact render={(props)=><App {...props}/>}/>
+        </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

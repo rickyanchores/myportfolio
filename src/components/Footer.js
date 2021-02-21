@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer(){
     return(
         <div className="Footer">
-            <div className="Contacts">
+            <div className="Contacts" id="Contacts">
                 <div className="logo"><h1>Ricky A Dev</h1></div>
                 <div className="nav-media">
                     <ul>

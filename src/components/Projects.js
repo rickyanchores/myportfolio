@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects(){
     return(
-        <div className="Projects">
+        <div className="Projects" id="Projects">
             <h1>My Projects</h1>
             <div className="Cards">
                 <div className="card">
