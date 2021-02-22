@@ -12,9 +12,10 @@ $secondColor: teal;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 2em;
     position: fixed;
-    top: -10;
+    padding: 1em;
+    margin-bottom: 0;
+    top: 0;
     .nav{
         ul{
             list-style: none;
