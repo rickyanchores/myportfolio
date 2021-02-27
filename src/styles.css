@@ -263,6 +263,7 @@ button:hover a {
 body {
   font-family: 'Share Tech Mono', monospace;
   background: #0D1117;
+  line-height: 1.6;
 }
 
 #root {
