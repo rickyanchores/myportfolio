@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter, Link } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
 import { HashLink } from "react-router-hash-link";
 
 
