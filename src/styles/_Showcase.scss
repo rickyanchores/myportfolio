@@ -14,7 +14,10 @@ $secondColor: teal;
     height: 90vh;
     margin-top: -1.5em;
     img{
-
+       background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
         width: 300px;
         height: 300px;
         border-radius: 50%;

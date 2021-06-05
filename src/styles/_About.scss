@@ -4,8 +4,11 @@
     align-items: center;
     border: 3px solid #ccc;
     img{
-        width: 350px;
-        
+        width: 450px;
+        height: 650px;
+        background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me2.jpg");
+        background-size: cover;
+        background-position: center;
     }
     .txt-about{
         font-size: 1.5em;

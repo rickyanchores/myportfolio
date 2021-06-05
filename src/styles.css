@@ -74,6 +74,10 @@
 }
 
 .Showcase img {
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -150,7 +154,11 @@
 }
 
 .About img {
-  width: 350px;
+  width: 450px;
+  height: 650px;
+  background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me2.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .About .txt-about {
