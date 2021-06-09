@@ -70,10 +70,10 @@
           align-items: center;
   color: whitesmoke;
   height: 90vh;
-  margin-top: -1.5em;
+  margin-top: 1.5em;
 }
 
-.Showcase img {
+.Showcase .img {
   background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +81,8 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  margin: 2em;
+  margin-top: 8em;
+  border: 1em #333 solid;
 }
 
 .Showcase h1 {
@@ -90,6 +91,12 @@
 
 .Showcase h3 {
   font-size: 2em;
+}
+
+@media (min-width: 700px) {
+  .Showcase .img {
+    margin-top: 8em;
+  }
 }
 
 .Cards {
