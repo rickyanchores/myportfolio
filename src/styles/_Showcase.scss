@@ -15,7 +15,7 @@ $secondColor: teal;
     margin-top: 1.5em;
 
     .img{
-       background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me.jpg");
+       background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me3.jpeg");
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -23,7 +23,11 @@ $secondColor: teal;
         height: 300px;
         border-radius: 50%;
         margin-top: 8em;
-        border: 1em #333 solid;
+        border: 1em whitesmoke solid;
+    }
+    .img:hover{
+        border: 1.5em teal solid;
+        transition: 0.5s ease-in-out;
     }
     
     h1{
