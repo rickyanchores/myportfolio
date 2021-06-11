@@ -31,4 +31,4 @@ function Header(props){
     </div>
     )};
 
-    export default withRouter(Header)
+    export default withRouter(Header) 
