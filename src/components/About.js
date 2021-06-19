@@ -4,7 +4,6 @@ export default function About(){
     return(
         <div className="About" id="About">
             <div className="img-about">
-                <img src="/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me2.jpg"alt=""/>
             </div>
             <div className="txt-about">
                 <h3>About</h3>

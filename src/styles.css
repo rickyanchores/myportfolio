@@ -166,9 +166,10 @@
   border: 3px solid #ccc;
 }
 
-.About img {
-  width: 450px;
-  height: 650px;
+.About .img-about {
+  margin: 5em;
+  width: 100%;
+  height: 600px;
   background-image: url("/Users/rickyanchores/Desktop/DevRicky/Project React/React Portfolio/myportfolio/src/images/me2.jpg");
   background-size: cover;
   background-position: center;
